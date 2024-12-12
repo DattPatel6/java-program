@@ -20,12 +20,6 @@ public class FibonacciRecursive {
         System.out.print("Enter the number of terms: ");
         int n = scanner.nextInt();
         
-        System.out.println("RESULT " + n );
-        
-       
-            System.out.print(fibonacci(n));
-        
-
-        
-    }
+        System.out.println("RESULT " + fibonacci(n) );      
+     }
 }
